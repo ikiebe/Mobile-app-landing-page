@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito:wght@400;700&display=swap');
+
+.body{
+    /*background-color: #ecf6f4;*/
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.store{
+ color: #AFE4DE;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.navb{
+    background-color: white;
+}
+
+.navbar__item{
+    font-family: lato;
+    color: black;
+    font-size: 50px;
+}
+
+.adv, .appOnplay{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.down{
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+li{
+	display: inline-block;
+	margin: 10px;
+}
+.download{
+	width: 200px;
+	height: 75px;
+	background: #000;
+	float: left;
+	border-radius: 4px;
+	position: relative;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
+}
+.download .fa{
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+}
+.p1, .p2{
+	position: absolute;
+	left: 70px;
+}
+.p1{
+	top: 20px;
+	font-size: 12px;
+}
+.p2{
+	top: 35px;
+	font-size: 16px;
+}
+.download:hover{
+	filter: invert(100%);
+}
+
+.iphone{
+    width: 150px;
+    height: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.appOnplay{
+    font-family: nunito;
+    font-weight: bold;
+}
